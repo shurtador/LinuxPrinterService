@@ -1,0 +1,566 @@
+{"cacheDir":"/home/bunuelisimo/PrinterService/lib/cache","level":"info","message":"PrinterManager initialized successfully","platform":"linux","service":"pos-printer-service","timestamp":"2025-08-17T22:29:46.371Z"}
+{"cacheDir":"/home/bunuelisimo/PrinterService/lib/cache","level":"info","message":"PrinterManager initialized successfully","platform":"linux","service":"pos-printer-service","timestamp":"2025-08-17T22:35:13.136Z"}
+{"cacheDir":"/home/bunuelisimo/PrinterService/lib/cache","level":"info","message":"PrinterManager initialized successfully","platform":"linux","service":"pos-printer-service","timestamp":"2025-08-17T22:38:48.152Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-17T22:38:48.160Z"}
+{"level":"error","message":"Printer detection error: this.printerManager.refreshPrinters is not a function","service":"pos-printer-service","stack":"TypeError: this.printerManager.refreshPrinters is not a function\n    at Timeout._onTimeout (/home/bunuelisimo/PrinterService/server.js:363:35)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2025-08-17T22:39:18.167Z"}
+{"level":"error","message":"Printer detection error: this.printerManager.refreshPrinters is not a function","service":"pos-printer-service","stack":"TypeError: this.printerManager.refreshPrinters is not a function\n    at Timeout._onTimeout (/home/bunuelisimo/PrinterService/server.js:363:35)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2025-08-17T22:39:48.195Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /print","service":"pos-printer-service","timestamp":"2025-08-17T22:39:48.726Z","userAgent":"curl/8.5.0"}
+{"level":"error","message":"Printer detection error: this.printerManager.refreshPrinters is not a function","service":"pos-printer-service","stack":"TypeError: this.printerManager.refreshPrinters is not a function\n    at Timeout._onTimeout (/home/bunuelisimo/PrinterService/server.js:363:35)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2025-08-17T22:40:18.207Z"}
+{"level":"error","message":"Printer detection error: this.printerManager.refreshPrinters is not a function","service":"pos-printer-service","stack":"TypeError: this.printerManager.refreshPrinters is not a function\n    at Timeout._onTimeout (/home/bunuelisimo/PrinterService/server.js:363:35)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2025-08-17T22:40:48.237Z"}
+{"level":"error","message":"Printer detection error: this.printerManager.refreshPrinters is not a function","service":"pos-printer-service","stack":"TypeError: this.printerManager.refreshPrinters is not a function\n    at Timeout._onTimeout (/home/bunuelisimo/PrinterService/server.js:363:35)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2025-08-17T22:41:18.267Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /print","service":"pos-printer-service","timestamp":"2025-08-17T22:41:39.194Z","userAgent":"curl/8.5.0"}
+{"level":"error","message":"Print job failed: this.printerManager.getAvailablePrinters is not a function","service":"pos-printer-service","stack":"TypeError: this.printerManager.getAvailablePrinters is not a function\n    at POSPrinterService.processPrintJob (/home/bunuelisimo/PrinterService/server.js:230:50)\n    at /home/bunuelisimo/PrinterService/server.js:169:35\n    at Layer.handle [as handle_request] (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/layer.js:95:5)\n    at /home/bunuelisimo/PrinterService/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/index.js:280:10)\n    at /home/bunuelisimo/PrinterService/server.js:71:7","timestamp":"2025-08-17T22:41:39.196Z"}
+{"level":"error","message":"Print endpoint error: this.printerManager.getAvailablePrinters is not a function","service":"pos-printer-service","stack":"TypeError: this.printerManager.getAvailablePrinters is not a function\n    at POSPrinterService.processPrintJob (/home/bunuelisimo/PrinterService/server.js:230:50)\n    at /home/bunuelisimo/PrinterService/server.js:169:35\n    at Layer.handle [as handle_request] (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/layer.js:95:5)\n    at /home/bunuelisimo/PrinterService/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/bunuelisimo/PrinterService/node_modules/express/lib/router/index.js:280:10)\n    at /home/bunuelisimo/PrinterService/server.js:71:7","timestamp":"2025-08-17T22:41:39.196Z"}
+{"level":"error","message":"Printer detection error: this.printerManager.refreshPrinters is not a function","service":"pos-printer-service","stack":"TypeError: this.printerManager.refreshPrinters is not a function\n    at Timeout._onTimeout (/home/bunuelisimo/PrinterService/server.js:363:35)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2025-08-17T22:41:48.270Z"}
+{"level":"error","message":"Printer detection error: this.printerManager.refreshPrinters is not a function","service":"pos-printer-service","stack":"TypeError: this.printerManager.refreshPrinters is not a function\n    at Timeout._onTimeout (/home/bunuelisimo/PrinterService/server.js:363:35)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2025-08-17T22:42:18.300Z"}
+{"level":"error","message":"Printer detection error: this.printerManager.refreshPrinters is not a function","service":"pos-printer-service","stack":"TypeError: this.printerManager.refreshPrinters is not a function\n    at Timeout._onTimeout (/home/bunuelisimo/PrinterService/server.js:363:35)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2025-08-17T22:42:48.304Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-17T22:43:09.206Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-17T22:43:11.777Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:43:12.818Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-17T22:43:12.819Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-17T22:43:12.832Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /print","service":"pos-printer-service","timestamp":"2025-08-17T22:43:21.347Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:43:22.390Z"}
+{"level":"error","message":"Print job failed: No printers available","service":"pos-printer-service","stack":"Error: No printers available\n    at POSPrinterService.processPrintJob (/home/bunuelisimo/PrinterService/server.js:236:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async /home/bunuelisimo/PrinterService/server.js:169:24","timestamp":"2025-08-17T22:43:22.391Z"}
+{"level":"error","message":"Print endpoint error: No printers available","service":"pos-printer-service","stack":"Error: No printers available\n    at POSPrinterService.processPrintJob (/home/bunuelisimo/PrinterService/server.js:236:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async /home/bunuelisimo/PrinterService/server.js:169:24","timestamp":"2025-08-17T22:43:22.392Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:43:43.888Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:44:13.893Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:44:43.929Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:45:13.957Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:45:43.982Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:46:14.010Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:46:44.044Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:47:14.054Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:47:44.059Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:48:14.079Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:48:44.111Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:49:14.151Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:49:44.147Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:50:14.168Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:50:44.172Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:51:14.208Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:51:44.234Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:52:14.269Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-17T22:52:38.667Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-17T22:56:14.517Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:56:15.560Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-17T22:56:15.561Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-17T22:56:15.576Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:56:46.624Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:57:16.647Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:57:46.676Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:58:16.705Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:58:46.731Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:59:16.763Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T22:59:46.786Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:00:16.820Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:00:46.838Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:01:16.877Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:01:46.908Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:02:16.930Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:02:46.952Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:03:16.991Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-17T23:03:40.063Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-17T23:03:44.866Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:03:45.910Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-17T23:03:45.911Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-17T23:03:45.924Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:04:16.989Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /print","service":"pos-printer-service","timestamp":"2025-08-17T23:04:36.849Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:04:37.891Z"}
+{"level":"error","message":"Print job failed: No printers available","service":"pos-printer-service","stack":"Error: No printers available\n    at POSPrinterService.processPrintJob (/home/bunuelisimo/PrinterService/server.js:236:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async /home/bunuelisimo/PrinterService/server.js:169:24","timestamp":"2025-08-17T23:04:37.892Z"}
+{"level":"error","message":"Print endpoint error: No printers available","service":"pos-printer-service","stack":"Error: No printers available\n    at POSPrinterService.processPrintJob (/home/bunuelisimo/PrinterService/server.js:236:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async /home/bunuelisimo/PrinterService/server.js:169:24","timestamp":"2025-08-17T23:04:37.893Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:04:46.989Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:05:17.001Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:05:47.021Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:06:17.056Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:06:47.084Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:07:17.105Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:07:47.130Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:08:17.134Z"}
+{"defaultPrinter":null,"level":"info","message":"Found 0 printers","printers":[],"service":"pos-printer-service","timestamp":"2025-08-17T23:08:47.163Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-17T23:08:53.313Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-17T23:08:55.702Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:08:57.784Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-17T23:08:57.785Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-17T23:08:57.799Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /print","service":"pos-printer-service","timestamp":"2025-08-17T23:09:03.341Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:09:05.422Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-17T23:09:05.424Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"ORD-001","service":"pos-printer-service","timestamp":"2025-08-17T23:09:05.444Z","total":32.4}
+{"jobId":"18","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-17T23:09:05.457Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"ORD-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-17T23:09:05.458Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:09:29.886Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:09:59.916Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:10:29.943Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:10:59.965Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:11:29.993Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:12:00.013Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:12:30.036Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:13:00.078Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:13:30.098Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:14:00.122Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:14:30.140Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:15:00.166Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:15:30.189Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:16:00.196Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:16:30.215Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:17:00.250Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:17:30.257Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:18:00.280Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:18:30.307Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:19:00.328Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:19:30.356Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:20:00.376Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:20:30.408Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:21:00.436Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:21:30.452Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:22:00.494Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:22:30.497Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:23:00.514Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:23:30.545Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:24:00.563Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:24:30.580Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:25:00.605Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:25:30.632Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:26:00.653Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:26:30.694Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:27:00.712Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-17T23:27:02.501Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-17T23:27:05.072Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:27:07.147Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-17T23:27:07.148Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-17T23:27:07.161Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /print","service":"pos-printer-service","timestamp":"2025-08-17T23:27:24.732Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:27:26.807Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-17T23:27:26.809Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"ORD-001","service":"pos-printer-service","timestamp":"2025-08-17T23:27:26.831Z","total":32.4}
+{"jobId":"19","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-17T23:27:26.843Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"ORD-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-17T23:27:26.844Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:27:39.246Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:28:09.267Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:28:39.268Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /print","service":"pos-printer-service","timestamp":"2025-08-17T23:29:03.919Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:29:05.994Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-17T23:29:05.995Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"ORD-001","service":"pos-printer-service","timestamp":"2025-08-17T23:29:05.995Z","total":32.4}
+{"jobId":"20","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-17T23:29:06.012Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"ORD-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-17T23:29:06.014Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:29:09.111Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:29:39.267Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:30:09.304Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:30:39.327Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:31:09.357Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:31:39.373Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:32:09.400Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:32:39.427Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:33:09.452Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:33:39.504Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:34:09.499Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-17T23:34:30.866Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-17T23:34:32.738Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:34:34.817Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-17T23:34:34.818Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-17T23:34:34.831Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /preview","service":"pos-printer-service","timestamp":"2025-08-17T23:34:48.368Z","userAgent":"curl/8.5.0"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-17T23:34:48.369Z"}
+{"itemCount":1,"level":"info","message":"Receipt formatted successfully","orderNumber":"ORD-001","service":"pos-printer-service","timestamp":"2025-08-17T23:34:48.385Z","total":32.4}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:35:06.916Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:35:36.940Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /print","service":"pos-printer-service","timestamp":"2025-08-17T23:35:52.386Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:35:54.481Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-17T23:35:54.482Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"ORD-001","service":"pos-printer-service","timestamp":"2025-08-17T23:35:54.483Z","total":32.4}
+{"jobId":"22","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-17T23:35:54.503Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"ORD-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-17T23:35:54.505Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:36:06.945Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:36:36.973Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:37:06.985Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:37:36.991Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:38:07.022Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:38:37.047Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:39:06.109Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:39:37.138Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-17T23:39:45.798Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-17T23:39:46.869Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:39:48.951Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-17T23:39:48.952Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-17T23:39:48.962Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /print","service":"pos-printer-service","timestamp":"2025-08-17T23:39:55.220Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:39:57.297Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-17T23:39:57.299Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"ORD-001","service":"pos-printer-service","timestamp":"2025-08-17T23:39:57.320Z","total":32.4}
+{"jobId":"24","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-17T23:39:57.331Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"ORD-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-17T23:39:57.332Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:40:21.052Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:40:51.053Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:41:21.086Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:41:51.127Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:42:21.147Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:42:51.167Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:43:21.197Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:43:51.230Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:44:21.235Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:44:51.263Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:45:20.750Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:45:51.314Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:46:21.338Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:46:51.356Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:47:21.394Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:47:51.404Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:48:21.385Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:48:51.401Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:49:21.451Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:49:51.452Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:50:21.477Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:50:51.494Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:51:21.523Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:51:51.544Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:52:21.586Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:52:51.605Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:53:21.634Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:53:51.665Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:54:21.660Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:54:51.677Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:55:21.698Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:55:51.724Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:56:21.774Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:56:51.803Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:57:21.828Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:57:51.848Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-17T23:58:21.862Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-17T23:58:24.561Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-18T00:00:41.439Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:00:43.516Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-18T00:00:43.517Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-18T00:00:43.531Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /test-print","service":"pos-printer-service","timestamp":"2025-08-18T00:01:02.641Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:01:04.717Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T00:01:04.718Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T00:01:04.739Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T00:01:04.754Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T00:01:04.756Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /test-print","service":"pos-printer-service","timestamp":"2025-08-18T00:01:15.139Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:01:15.603Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:01:16.649Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T00:01:16.650Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T00:01:16.650Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T00:01:16.673Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T00:01:16.675Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /test-print","service":"pos-printer-service","timestamp":"2025-08-18T00:01:26.133Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:01:28.222Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T00:01:28.223Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T00:01:28.223Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T00:01:28.247Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T00:01:28.248Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:01:45.614Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:02:15.631Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:02:45.658Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:03:15.684Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:03:45.709Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:04:15.742Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:04:45.761Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:05:15.781Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:05:45.809Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:06:15.831Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:06:45.844Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:07:15.872Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:07:45.902Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:08:15.933Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:08:45.948Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:09:15.970Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:09:45.985Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:10:16.014Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:10:46.037Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:11:16.068Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:11:46.094Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:12:16.103Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:12:46.133Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:13:16.159Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:13:46.176Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:14:16.206Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:14:46.223Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:15:16.249Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:15:46.264Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:16:16.293Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:16:46.321Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:17:16.351Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:17:46.372Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:18:16.403Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:18:46.427Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:19:16.439Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:19:46.444Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:20:16.476Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:20:46.496Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:21:16.502Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:21:46.520Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:22:16.534Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:22:46.558Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:23:16.581Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:23:46.590Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:24:16.615Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:24:46.640Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:25:16.666Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:25:46.695Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:26:16.724Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:26:46.725Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:27:16.742Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:27:46.773Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:28:16.784Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:28:46.822Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:29:16.828Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:29:46.857Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:30:16.888Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:30:46.912Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:31:16.940Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:31:46.971Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:32:16.992Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:32:47.004Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:33:17.035Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:33:47.064Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:34:17.092Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:34:47.124Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:35:17.152Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:35:47.177Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:36:17.205Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:36:47.233Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:37:17.269Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:37:47.269Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:38:17.296Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:38:47.326Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:39:17.334Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:39:47.344Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:40:17.392Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:40:47.391Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:41:17.414Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:41:47.413Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:42:17.445Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:42:47.448Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:43:17.465Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:43:47.492Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:44:17.527Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:44:47.545Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:45:17.558Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:45:47.583Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:46:17.612Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:46:47.644Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:47:17.650Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:47:47.681Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:48:17.711Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:48:47.728Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:49:17.759Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:49:47.758Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:50:17.787Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:50:47.816Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:51:17.849Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:51:47.855Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:52:17.878Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:52:47.909Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:53:17.940Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:53:47.965Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:54:17.975Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:54:48.003Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:55:18.033Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:55:48.056Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:56:18.083Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:56:48.115Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:57:18.138Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:57:48.170Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:58:18.189Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:58:48.188Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:59:18.220Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T00:59:48.223Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:00:18.242Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:00:48.236Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:01:18.284Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:01:48.288Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:02:18.339Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:02:48.366Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:03:18.393Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:03:48.400Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:04:18.438Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:04:48.474Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:05:18.487Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:05:48.517Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:06:18.533Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:06:48.560Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:07:18.585Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:07:48.609Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:08:18.623Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:08:48.672Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:09:18.702Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:09:48.716Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:10:18.750Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:10:48.782Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:11:18.807Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:11:48.835Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:12:18.852Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:12:48.863Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:13:18.914Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-18T01:13:38.782Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-18T01:13:42.000Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:13:44.076Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-18T01:13:44.077Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-18T01:13:44.091Z"}
+{"ip":"127.0.0.1","level":"info","message":"GET /status","service":"pos-printer-service","timestamp":"2025-08-18T01:14:06.199Z","userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:14:08.288Z"}
+{"ip":"127.0.0.1","level":"info","message":"GET /favicon.ico","service":"pos-printer-service","timestamp":"2025-08-18T01:14:08.371Z","userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:14:16.159Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:14:46.184Z"}
+{"ip":"127.0.0.1","level":"info","message":"GET /status","service":"pos-printer-service","timestamp":"2025-08-18T01:15:02.756Z","userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:15:04.833Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:15:16.187Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-18T01:15:16.691Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-18T01:15:19.719Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:15:21.798Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-18T01:15:21.799Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-18T01:15:21.812Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:15:53.885Z"}
+{"body":"{\"printerName\": \"Rongta\"}curl&{\"printerName\": \"Rongta\"}","expose":true,"level":"error","message":"Unhandled error: Unexpected non-whitespace character after JSON at position 25 (line 1 column 26)","service":"pos-printer-service","stack":"SyntaxError: Unexpected non-whitespace character after JSON at position 25 (line 1 column 26)\n    at JSON.parse (<anonymous>)\n    at parse (/home/bunuelisimo/PrinterService/node_modules/body-parser/lib/types/json.js:92:19)\n    at /home/bunuelisimo/PrinterService/node_modules/body-parser/lib/read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:238:16)\n    at done (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","status":400,"statusCode":400,"timestamp":"2025-08-18T01:15:59.414Z","type":"entity.parse.failed"}
+{"body":"{\"printerName\": \"Rongta\"}curl&{\"printerName\": \"Rongta\"}","expose":true,"level":"error","message":"Unhandled error: Unexpected non-whitespace character after JSON at position 25 (line 1 column 26)","service":"pos-printer-service","stack":"SyntaxError: Unexpected non-whitespace character after JSON at position 25 (line 1 column 26)\n    at JSON.parse (<anonymous>)\n    at parse (/home/bunuelisimo/PrinterService/node_modules/body-parser/lib/types/json.js:92:19)\n    at /home/bunuelisimo/PrinterService/node_modules/body-parser/lib/read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:238:16)\n    at done (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","status":400,"statusCode":400,"timestamp":"2025-08-18T01:15:59.420Z","type":"entity.parse.failed"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:16:23.905Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:16:53.929Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-18T01:16:59.324Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-18T01:17:00.984Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:17:03.064Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-18T01:17:03.065Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-18T01:17:03.078Z"}
+{"body":"{\"printerName\": \"Rongta\"}curl&{\"printerName\": \"Rongta\"}","expose":true,"level":"error","message":"Unhandled error: Unexpected non-whitespace character after JSON at position 25 (line 1 column 26)","service":"pos-printer-service","stack":"SyntaxError: Unexpected non-whitespace character after JSON at position 25 (line 1 column 26)\n    at JSON.parse (<anonymous>)\n    at parse (/home/bunuelisimo/PrinterService/node_modules/body-parser/lib/types/json.js:92:19)\n    at /home/bunuelisimo/PrinterService/node_modules/body-parser/lib/read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:238:16)\n    at done (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","status":400,"statusCode":400,"timestamp":"2025-08-18T01:17:05.744Z","type":"entity.parse.failed"}
+{"body":"{\"printerName\": \"Rongta\"}curl&{\"printerName\": \"Rongta\"}","expose":true,"level":"error","message":"Unhandled error: Unexpected non-whitespace character after JSON at position 25 (line 1 column 26)","service":"pos-printer-service","stack":"SyntaxError: Unexpected non-whitespace character after JSON at position 25 (line 1 column 26)\n    at JSON.parse (<anonymous>)\n    at parse (/home/bunuelisimo/PrinterService/node_modules/body-parser/lib/types/json.js:92:19)\n    at /home/bunuelisimo/PrinterService/node_modules/body-parser/lib/read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:238:16)\n    at done (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/home/bunuelisimo/PrinterService/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","status":400,"statusCode":400,"timestamp":"2025-08-18T01:17:05.749Z","type":"entity.parse.failed"}
+{"ip":"127.0.0.1","level":"info","message":"POST /test-print","service":"pos-printer-service","timestamp":"2025-08-18T01:17:10.634Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:17:12.713Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T01:17:12.715Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:17:12.737Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:17:12.751Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:17:12.752Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /test-print","service":"pos-printer-service","timestamp":"2025-08-18T01:17:24.724Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:17:26.808Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T01:17:26.808Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:17:26.809Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:17:26.829Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:17:26.829Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:17:35.158Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:18:05.199Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-18T01:18:28.159Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-18T01:18:31.350Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:18:32.618Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-18T01:18:32.619Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-18T01:18:32.631Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:19:04.382Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:19:34.732Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:20:04.756Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:20:34.794Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /test-print","service":"pos-printer-service","timestamp":"2025-08-18T01:20:51.267Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:20:53.338Z"}
+{"level":"warn","message":"Printer offline, added to queue. Queue length: 1","service":"pos-printer-service","timestamp":"2025-08-18T01:20:53.338Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:21:04.800Z"}
+{"level":"info","message":"Processing print queue, 1 items","service":"pos-printer-service","timestamp":"2025-08-18T01:21:04.801Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:21:06.877Z"}
+{"level":"warn","message":"Printer offline, added to queue. Queue length: 1","service":"pos-printer-service","timestamp":"2025-08-18T01:21:06.878Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:21:34.802Z"}
+{"level":"info","message":"Processing print queue, 2 items","service":"pos-printer-service","timestamp":"2025-08-18T01:21:34.803Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:21:36.876Z"}
+{"level":"warn","message":"Printer offline, added to queue. Queue length: 2","service":"pos-printer-service","timestamp":"2025-08-18T01:21:36.877Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:22:04.822Z"}
+{"level":"info","message":"Processing print queue, 3 items","service":"pos-printer-service","timestamp":"2025-08-18T01:22:04.822Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:22:06.900Z"}
+{"level":"warn","message":"Printer offline, added to queue. Queue length: 3","service":"pos-printer-service","timestamp":"2025-08-18T01:22:06.900Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:22:34.851Z"}
+{"level":"info","message":"Processing print queue, 4 items","service":"pos-printer-service","timestamp":"2025-08-18T01:22:34.852Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:22:36.928Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T01:22:36.929Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:22:36.948Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:22:36.970Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:22:36.971Z"}
+{"level":"info","message":"Queued job printed successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:22:36.971Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:22:39.024Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T01:22:39.024Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:22:39.024Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:22:39.037Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:22:39.038Z"}
+{"level":"info","message":"Queued job printed successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:22:39.038Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:22:41.071Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T01:22:41.072Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:22:41.072Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:22:41.088Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:22:41.089Z"}
+{"level":"info","message":"Queued job printed successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:22:41.089Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:22:43.158Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T01:22:43.161Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:22:43.161Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:22:43.175Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:22:43.175Z"}
+{"level":"info","message":"Queued job printed successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:22:43.175Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:23:04.109Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:23:34.898Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:24:04.914Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:24:34.963Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:25:04.986Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /test-print","service":"pos-printer-service","timestamp":"2025-08-18T01:25:11.564Z","userAgent":"curl/8.5.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:25:13.660Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T01:25:13.661Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:25:13.661Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:25:13.685Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:25:13.685Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:25:34.991Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:26:05.022Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:26:35.028Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-18T01:26:42.339Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-18T01:27:23.286Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:27:25.352Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-18T01:27:25.353Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-18T01:27:25.361Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:27:57.472Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:28:27.480Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:28:57.489Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:29:27.518Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:29:57.561Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:30:27.595Z"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully","service":"pos-printer-service","timestamp":"2025-08-18T01:30:46.987Z"}
+{"level":"info","message":"CUPS is available and running","service":"pos-printer-service","timestamp":"2025-08-18T01:30:48.827Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:30:50.908Z"}
+{"level":"info","message":"Printer manager initialized successfully","service":"pos-printer-service","timestamp":"2025-08-18T01:30:50.909Z"}
+{"level":"info","message":"POS Printer Service started on 127.0.0.1:8080","service":"pos-printer-service","timestamp":"2025-08-18T01:30:50.924Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:31:23.011Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:31:53.049Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:32:23.065Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:32:53.079Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:33:23.106Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:33:53.171Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:34:23.185Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:34:53.221Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:35:23.242Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:35:53.261Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:36:23.283Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:36:53.330Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:37:23.358Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:37:53.373Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:38:23.400Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:38:53.436Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /test-print","origin":"https://256b8d0c-5b4d-4ce0-9c97-fa7b31cd80d2-00-2pdg7oo9voquq.picard.replit.dev","service":"pos-printer-service","timestamp":"2025-08-18T01:39:00.704Z","userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:39:02.784Z"}
+{"level":"warn","message":"Printer offline, added to queue. Queue length: 1","service":"pos-printer-service","timestamp":"2025-08-18T01:39:02.786Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:39:23.446Z"}
+{"level":"info","message":"Processing print queue, 1 items","service":"pos-printer-service","timestamp":"2025-08-18T01:39:23.447Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"offline"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:39:25.531Z"}
+{"level":"warn","message":"Printer offline, added to queue. Queue length: 1","service":"pos-printer-service","timestamp":"2025-08-18T01:39:25.533Z"}
+{"ip":"127.0.0.1","level":"info","message":"POST /test-print","origin":"https://256b8d0c-5b4d-4ce0-9c97-fa7b31cd80d2-00-2pdg7oo9voquq.picard.replit.dev","service":"pos-printer-service","timestamp":"2025-08-18T01:39:38.448Z","userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:39:40.558Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T01:39:40.560Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:39:40.583Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:39:40.598Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:39:40.598Z"}
+{"level":"info","message":"Processing print queue, 2 items","service":"pos-printer-service","timestamp":"2025-08-18T01:39:40.599Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:39:42.676Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T01:39:42.677Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:39:42.678Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:39:42.703Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:39:42.704Z"}
+{"level":"info","message":"Queued job printed successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:39:42.705Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:39:44.789Z"}
+{"level":"warn","message":"Logo processing failed, skipping logo:","service":"pos-printer-service","timestamp":"2025-08-18T01:39:44.790Z"}
+{"itemCount":2,"level":"info","message":"Receipt formatted successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:39:44.790Z","total":27.67}
+{"jobId":"unknown","level":"info","message":"Print job submitted successfully","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:39:44.813Z"}
+{"level":"info","message":"Receipt printed successfully","orderNumber":"TEST-001","printer":"Rongta","service":"pos-printer-service","timestamp":"2025-08-18T01:39:44.813Z"}
+{"level":"info","message":"Queued job printed successfully","orderNumber":"TEST-001","service":"pos-printer-service","timestamp":"2025-08-18T01:39:44.814Z"}
+{"defaultPrinter":"Rongta","level":"info","message":"Found 1 printers","printers":[{"name":"Rongta","status":"online"}],"service":"pos-printer-service","timestamp":"2025-08-18T01:39:52.768Z"}

@@ -1,0 +1,65 @@
+[Unit]
+Description=POS Printer Service
+Documentation=https://github.com/your-org/pos-printer-service
+After=network.target cups.service
+Wants=cups.service
+Requires=network.target
+
+[Service]
+Type=simple
+User=pos-printer
+Group=pos-printer
+WorkingDirectory=/opt/pos-printer-service
+ExecStart=/usr/bin/node server.js
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=5
+StartLimitInterval=60s
+StartLimitBurst=3
+KillMode=mixed
+KillSignal=SIGTERM
+TimeoutStopSec=30
+# Allow the access to USB/LP devices
+DeviceAllow=/dev/usb/*
+DeviceAllow=/dev/usb/lp*
+DeviceAllow=/dev/lp*
+# Disable excesive isolation
+PrivateDevices=no
+# Permitir acceso a D-Bus y CUPS
+ProtectSystem=off
+ProtectHome=off
+PrivateTmp=false
+# Dar acceso al socket de CUPS
+BindReadOnlyPaths=/var/run/cups/cups.sock
+# Asegurar variables de entorno
+Environment="CUPS_SERVER=/var/run/cups/cups.sock"
+
+
+
+
+# Environment
+Environment=NODE_ENV=production
+Environment=PORT=8080
+Environment=LOG_LEVEL=info
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+# Allow access to USB and system libs (drop strict isolation)
+ProtectSystem=full
+ProtectHome=read-only
+ReadWritePaths=/opt/pos-printer-service/logs
+ReadWritePaths=/tmp
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=32768
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=pos-printer-service
+
+[Install]
+WantedBy=multi-user.target
+

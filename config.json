@@ -1,0 +1,30 @@
+{
+  "server": {
+    "port": 8080,
+    "host": "127.0.0.1"
+  },
+  "printing": {
+    "defaultPrinter": "auto",
+    "paperWidth": 48,
+    "timeout": 10000,
+    "retryAttempts": 3,
+    "retryDelay": 1000,
+    "maxQueueSize": 10
+  },
+  "receipt": {
+    "restaurantName": "BUÑUELISIMO",
+    "address": "Estacion San Antonio, Medellin",
+    "phone": "Tel: (604) 1234567",
+    "footerMessage": "Gracias por tu visita buñuelisima",
+    "logoPath": "./assets/logo.png",
+    "paperWidth": 48,
+    "dateFormat": "custom",
+    "taxLabel": "IAC (8%):"
+  },
+  "logging": {
+    "level": "info",
+    "directory": "./logs",
+    "maxSize": "10MB",
+    "maxFiles": 5
+  }
+}
