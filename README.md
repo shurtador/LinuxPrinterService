@@ -386,3 +386,6 @@ MIT License - See LICENSE file for details.
 ---
 
 **Ready to print! 🖨️**
+
+## Auto deployment
+This is a test to confirm that the Github actions and deployments are working correctly
