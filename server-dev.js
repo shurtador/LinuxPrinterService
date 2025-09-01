@@ -10,6 +10,7 @@ const express = require('express');
 const winston = require('winston');
 const path = require('path');
 const fs = require('fs');
+const cors = require('cors');
 
 // Import our modules
 const printerManager = require('./lib/printerManager');
@@ -58,6 +59,15 @@ const logger = winston.createLogger({
 });
 
 const app = express();
+
+// CORS configuration for development
+app.use(cors({
+  origin: true, // Allow all origins in development
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
+}));
+
 app.use(express.json({ limit: '10mb' }));
 
 // Print queue for development
