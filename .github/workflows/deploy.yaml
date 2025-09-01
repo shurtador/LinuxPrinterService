@@ -2,21 +2,12 @@ name: Deploy POS Printer Service
 
 on:
   push:
-    branches: [ main ]
-    # Optional: only deploy when source or config changes
-    paths:
-      - '**.js'
-      - 'package.json'
-      - 'package-lock.json'
-      - 'pos-printer-service.service'
-      - 'scripts/**'
-      - '!README.md'
-  workflow_dispatch:
+    branches: [ main ]        # deploy on any push to main
+  workflow_dispatch:          # allow manual runs from the Actions tab
 
 jobs:
   deploy:
-    # Run only on your store runner
-    runs-on: [self-hosted, pos-printer, ubuntu]
+    runs-on: [self-hosted, pos-printer, ubuntu]   # your labeled runner
     concurrency:
       group: pos-printer-deploy
       cancel-in-progress: true
@@ -34,17 +25,34 @@ jobs:
           cache: 'npm'
           cache-dependency-path: 'package-lock.json'
 
-      - name: Sync code to target
+      - name: Sync code to /opt/pos-printer-service
         run: |
-          sudo rsync -a --delete "$GITHUB_WORKSPACE"/ /opt/pos-printer-service/
-          sudo chown -R deploy:deploy /opt/pos-printer-service/
+          sudo rsync -a --delete --chown=pos-printer:pos-printer "$GITHUB_WORKSPACE"/ /opt/pos-printer-service/
 
       - name: Install dependencies
         working-directory: /opt/pos-printer-service
         run: npm ci
 
-      - name: Restart service
-        run: sudo systemctl restart pos-printer-service.service
+      - name: Reload systemd (safe no-op unless unit changed)
+        run: sudo /usr/bin/systemctl daemon-reload
 
-      - name: Show logs (sanity check)
-        run: journalctl -u pos-printer-service.service -n 30 --no-pager || true
+      - name: Restart service
+        run: sudo /usr/bin/systemctl restart pos-printer-service.service
+
+      - name: Show last logs (sanity check)
+        run: journalctl -u pos-printer-service.service -n 50 --no-pager || true
+
+      - name: Health check
+        run: |
+          set -e
+          URL="http://127.0.0.1:8080/status"
+          echo "Pinging $URL ..."
+          for i in {1..10}; do
+            if curl -fsS "$URL" > /dev/null; then
+              echo "Health check OK"
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Health check FAILED"
+          exit 1
