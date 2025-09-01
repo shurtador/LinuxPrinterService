@@ -19,7 +19,25 @@
     "logoPath": "./assets/logo.png",
     "paperWidth": 48,
     "dateFormat": "custom",
-    "taxLabel": "IAC (8%):"
+    "taxLabel": "IAC (8%):",
+    "receiptTypes": {
+      "cash_transfer": {
+        "header": "TRANSFER DE EFECTIVO",
+        "footer": "CONSERVAR PARA AUDITORIA"
+      },
+      "shift_closure": {
+        "header": "CIERRE DE TURNO",
+        "footer": "CIERRE COMPLETADO"
+      },
+      "shift_handoff": {
+        "header": "ENTREGA DE TURNO",
+        "footer": "CONSERVAR PARA AUDITORIA"
+      },
+      "cash_expense": {
+        "header": "GASTO DE CAJA",
+        "footer": "CONSERVAR PARA AUDITORIA"
+      }
+    }
   },
   "logging": {
     "level": "info",
