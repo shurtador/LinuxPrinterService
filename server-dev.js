@@ -13,8 +13,11 @@ const fs = require('fs');
 
 // Import our modules
 const printerManager = require('./lib/printerManager');
-const receiptFormatter = require('./lib/receiptFormatter');
+const ReceiptFormatter = require('./lib/receiptFormatter-dev');
 const { validateReceipt } = require('./lib/validation');
+
+// Create receipt formatter instance
+const receiptFormatter = new ReceiptFormatter();
 
 // Load configuration
 const config = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
