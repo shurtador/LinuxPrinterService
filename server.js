@@ -9,6 +9,7 @@ const { promisify } = require('util');
 
 const ReceiptFormatter = require('./lib/receiptFormatter');
 const PrinterManager = require('./lib/printerManager');
+const { validateReceipt } = require('./lib/validation');
 const config = require('./config.json');
 
 const execAsync = promisify(exec);
@@ -228,10 +229,10 @@ class POSPrinterService {
     this.app.post('/preview', async (req, res) => {
       try {
         console.log('Preview endpoint called with body:', req.body);
-        const { receipt } = req.body;
+        const { receipt, type = 'sales' } = req.body;
         
         // Validate receipt data
-        const validation = this.validateReceiptData(receipt);
+        const validation = this.validateReceiptData(receipt, type);
         if (!validation.valid) {
           console.log('Preview validation failed:', validation.errors);
           return res.status(400).json({
@@ -242,7 +243,7 @@ class POSPrinterService {
         }
 
         // Get preview of receipt
-        const preview = await this.receiptFormatter.previewReceipt(receipt);
+        const preview = await this.receiptFormatter.previewReceipt(receipt, type);
         
         console.log('Preview generated successfully');
         res.json({
@@ -250,6 +251,7 @@ class POSPrinterService {
           preview: preview.preview,     // Clean text for display
           escPosCodes: preview.escPosCodes, // List of ESC/POS commands used
           rawLength: preview.raw.length,    // Size of raw data
+          type: preview.type,               // Receipt type
           timestamp: new Date().toISOString()
         });
       } catch (error) {
@@ -330,14 +332,178 @@ class POSPrinterService {
       }
     });
 
+    // Test endpoints for each receipt type
+    this.app.post('/test-transfer', async (req, res) => {
+      try {
+        console.log('=== TEST-TRANSFER ENDPOINT CALLED ===');
+        const { printerName } = req.body;
+        
+        const testReceipt = {
+          transferId: 'TRANS-000123',
+          date: '2024-08-30 14:30:00',
+          shiftInfo: 'Turno Mañana',
+          senderName: 'Juan Pérez',
+          receiverName: 'María García',
+          amount: 1250000,
+          notes: 'Transfer for supplies',
+          locationName: 'Buñuelisimo - Estacion San Antonio',
+          printTime: '2024-08-30T14:30:00.000Z'
+        };
+
+        console.log('Generated test transfer receipt:', JSON.stringify(testReceipt, null, 2));
+        const result = await this.processPrintJob(testReceipt, printerName, 'cash_transfer');
+        
+        result.timestamp = new Date().toISOString();
+        result.endpoint = 'test-transfer';
+        
+        console.log('Sending final response:', JSON.stringify(result, null, 2));
+        res.json(result);
+        
+      } catch (error) {
+        console.error('=== TEST-TRANSFER ERROR ===');
+        console.error('Error:', error.message);
+        logger.error('Test transfer error:', error);
+        res.status(500).json({
+          success: false,
+          error: error.message,
+          timestamp: new Date().toISOString(),
+          endpoint: 'test-transfer'
+        });
+      }
+    });
+
+    this.app.post('/test-shift-closure', async (req, res) => {
+      try {
+        console.log('=== TEST-SHIFT-CLOSURE ENDPOINT CALLED ===');
+        const { printerName } = req.body;
+        
+        const testReceipt = {
+          shiftId: 'SHIFT-000045',
+          shiftType: 'Turno Tarde',
+          shiftDate: '2024-08-30',
+          cashierName: 'Ana López',
+          startTime: '14:00',
+          endTime: '22:00',
+          startingCash: 500000,
+          endingCashExpected: 1350000,
+          endingCashCounted: 1348000,
+          variance: -2000,
+          shiftSales: 850000,
+          transfersOut: 800000,
+          locationName: 'Buñuelisimo - Estacion San Antonio',
+          printTime: '2024-08-30T22:00:00.000Z'
+        };
+
+        console.log('Generated test shift closure receipt:', JSON.stringify(testReceipt, null, 2));
+        const result = await this.processPrintJob(testReceipt, printerName, 'shift_closure');
+        
+        result.timestamp = new Date().toISOString();
+        result.endpoint = 'test-shift-closure';
+        
+        console.log('Sending final response:', JSON.stringify(result, null, 2));
+        res.json(result);
+        
+      } catch (error) {
+        console.error('=== TEST-SHIFT-CLOSURE ERROR ===');
+        console.error('Error:', error.message);
+        logger.error('Test shift closure error:', error);
+        res.status(500).json({
+          success: false,
+          error: error.message,
+          timestamp: new Date().toISOString(),
+          endpoint: 'test-shift-closure'
+        });
+      }
+    });
+
+    this.app.post('/test-shift-handoff', async (req, res) => {
+      try {
+        console.log('=== TEST-SHIFT-HANDOFF ENDPOINT CALLED ===');
+        const { printerName } = req.body;
+        
+        const testReceipt = {
+          handoffId: 'HAND-000067',
+          handoffDate: '2024-08-30 14:00:00',
+          outgoingCashier: 'Carlos Ruiz',
+          incomingCashier: 'Laura Silva',
+          handoffAmount: 548000,
+          verifiedAmount: 548000,
+          variance: 0,
+          status: 'VERIFICADO',
+          locationName: 'Buñuelisimo - Estacion San Antonio',
+          printTime: '2024-08-30T14:00:00.000Z'
+        };
+
+        console.log('Generated test shift handoff receipt:', JSON.stringify(testReceipt, null, 2));
+        const result = await this.processPrintJob(testReceipt, printerName, 'shift_handoff');
+        
+        result.timestamp = new Date().toISOString();
+        result.endpoint = 'test-shift-handoff';
+        
+        console.log('Sending final response:', JSON.stringify(result, null, 2));
+        res.json(result);
+        
+      } catch (error) {
+        console.error('=== TEST-SHIFT-HANDOFF ERROR ===');
+        console.error('Error:', error.message);
+        logger.error('Test shift handoff error:', error);
+        res.status(500).json({
+          success: false,
+          error: error.message,
+          timestamp: new Date().toISOString(),
+          endpoint: 'test-shift-handoff'
+        });
+      }
+    });
+
+    this.app.post('/test-cash-expense', async (req, res) => {
+      try {
+        console.log('=== TEST-CASH-EXPENSE ENDPOINT CALLED ===');
+        const { printerName } = req.body;
+        
+        const testReceipt = {
+          expenseId: 'EXP-000452',
+          cashExpenseId: 'CASH-000089',
+          date: '2024-08-30 16:45:00',
+          cashierName: 'Roberto Díaz',
+          category: 'Alimentación',
+          description: 'Almuerzo para personal',
+          amount: 25000,
+          shiftInfo: 'Turno Tarde',
+          locationName: 'Buñuelisimo - Estacion San Antonio',
+          printTime: '2024-08-30T16:45:00.000Z'
+        };
+
+        console.log('Generated test cash expense receipt:', JSON.stringify(testReceipt, null, 2));
+        const result = await this.processPrintJob(testReceipt, printerName, 'cash_expense');
+        
+        result.timestamp = new Date().toISOString();
+        result.endpoint = 'test-cash-expense';
+        
+        console.log('Sending final response:', JSON.stringify(result, null, 2));
+        res.json(result);
+        
+      } catch (error) {
+        console.error('=== TEST-CASH-EXPENSE ERROR ===');
+        console.error('Error:', error.message);
+        logger.error('Test cash expense error:', error);
+        res.status(500).json({
+          success: false,
+          error: error.message,
+          timestamp: new Date().toISOString(),
+          endpoint: 'test-cash-expense'
+        });
+      }
+    });
+
     // Main print endpoint
     this.app.post('/print', async (req, res) => {
       try {
         console.log('Print endpoint called with body:', req.body);
-        const { receipt } = req.body;
+        const { receipt, type = 'sales' } = req.body;
         
         // Validate receipt data
-        const validation = this.validateReceiptData(receipt);
+        const validation = this.validateReceiptData(receipt, type);
         if (!validation.valid) {
           console.log('Print validation failed:', validation.errors);
           return res.status(400).json({
@@ -347,8 +513,8 @@ class POSPrinterService {
           });
         }
 
-        console.log('Processing print job...');
-        const result = await this.processPrintJob(receipt);
+        console.log('Processing print job with type:', type);
+        const result = await this.processPrintJob(receipt, null, type);
         result.timestamp = new Date().toISOString();
         
         console.log('Print job completed:', result);
@@ -376,7 +542,11 @@ class POSPrinterService {
         endpoints: {
           print: 'POST /print',
           preview: 'POST /preview',
-          testPrint: 'POST /test-print', 
+          testPrint: 'POST /test-print',
+          testTransfer: 'POST /test-transfer',
+          testShiftClosure: 'POST /test-shift-closure',
+          testShiftHandoff: 'POST /test-shift-handoff',
+          testCashExpense: 'POST /test-cash-expense',
           status: 'GET /status',
           printers: 'GET /printers'
         }
@@ -403,49 +573,26 @@ class POSPrinterService {
           'GET /': 'Service info',
           'GET /status': 'Service status',
           'GET /printers': 'List printers',
-          'POST /test-print': 'Test print',
-          'POST /print': 'Print receipt',
-          'POST /preview': 'Preview receipt'
+          'POST /test-print': 'Test sales print',
+          'POST /test-transfer': 'Test cash transfer print',
+          'POST /test-shift-closure': 'Test shift closure print',
+          'POST /test-shift-handoff': 'Test shift handoff print',
+          'POST /test-cash-expense': 'Test cash expense print',
+          'POST /print': 'Print receipt (with type parameter)',
+          'POST /preview': 'Preview receipt (with type parameter)'
         },
         timestamp: new Date().toISOString()
       });
     });
   }
 
-  validateReceiptData(receipt) {
-    const errors = [];
-    
-    if (!receipt) {
-      errors.push('Receipt data is required');
-      return { valid: false, errors };
-    }
-
-    if (!receipt.orderNumber) errors.push('Order number is required');
-    if (!receipt.date) errors.push('Date is required');
-    if (!receipt.items || !Array.isArray(receipt.items) || receipt.items.length === 0) {
-      errors.push('Items array is required and must not be empty');
-    }
-    if (typeof receipt.subtotal !== 'number') errors.push('Subtotal must be a number');
-    if (typeof receipt.tax !== 'number') errors.push('Tax must be a number');
-    if (typeof receipt.total !== 'number') errors.push('Total must be a number');
-    if (!receipt.paymentMethod) errors.push('Payment method is required');
-
-    // Validate items
-    if (receipt.items) {
-      receipt.items.forEach((item, index) => {
-        if (!item.name) errors.push(`Item ${index + 1}: name is required`);
-        if (typeof item.quantity !== 'number') errors.push(`Item ${index + 1}: quantity must be a number`);
-        if (typeof item.price !== 'number') errors.push(`Item ${index + 1}: price must be a number`);
-        if (typeof item.total !== 'number') errors.push(`Item ${index + 1}: total must be a number`);
-      });
-    }
-
-    return { valid: errors.length === 0, errors };
+  validateReceiptData(receipt, type = 'sales') {
+    return validateReceipt(receipt, type);
   }
 
-  async processPrintJob(receipt, printerName = null) {
+  async processPrintJob(receipt, printerName = null, type = 'sales') {
     try {
-      console.log('Processing print job for printer:', printerName);
+      console.log('Processing print job for printer:', printerName, 'type:', type);
       
       // Check if printer is available
       const printers = await this.printerManager.getAvailablePrinters();
@@ -464,7 +611,7 @@ class POSPrinterService {
       if (targetPrinter.status !== 'online') {
         // Add to queue if printer is offline
         if (this.printQueue.length < this.maxQueueSize) {
-          this.printQueue.push({ receipt, printerName, timestamp: Date.now() });
+          this.printQueue.push({ receipt, printerName, type, timestamp: Date.now() });
           logger.warn(`Printer offline, added to queue. Queue length: ${this.printQueue.length}`);
           
           return {
@@ -479,15 +626,16 @@ class POSPrinterService {
       }
 
       // Format and print receipt
-      console.log('Formatting receipt...');
-      const formattedReceipt = await this.receiptFormatter.formatReceipt(receipt);
+      console.log('Formatting receipt with type:', type);
+      const formattedReceipt = await this.receiptFormatter.formatReceipt(receipt, type);
       
       console.log('Sending to printer...');
       const printResult = await this.printerManager.print(formattedReceipt, targetPrinter.name);
       
       this.lastPrintTime = new Date().toISOString();
       logger.info('Receipt printed successfully', {
-        orderNumber: receipt.orderNumber,
+        type: type,
+        orderNumber: receipt.orderNumber || receipt.transferId || receipt.shiftId || receipt.handoffId || receipt.expenseId,
         printer: targetPrinter.name,
         timestamp: this.lastPrintTime
       });
@@ -523,7 +671,7 @@ class POSPrinterService {
     while (this.printQueue.length > 0) {
       try {
         const job = this.printQueue.shift();
-        const result = await this.processPrintJob(job.receipt, job.printerName);
+        const result = await this.processPrintJob(job.receipt, job.printerName, job.type || 'sales');
         
         if (!result.success && result.queued) {
           // If it got queued again, put it back and stop processing
@@ -531,7 +679,10 @@ class POSPrinterService {
           break;
         }
         
-        logger.info('Queued job printed successfully', { orderNumber: job.receipt.orderNumber });
+        logger.info('Queued job printed successfully', { 
+          orderNumber: job.receipt.orderNumber || job.receipt.transferId || job.receipt.shiftId || job.receipt.handoffId || job.receipt.expenseId,
+          type: job.type || 'sales'
+        });
       } catch (error) {
         logger.error('Failed to print queued job:', error);
         // Continue processing other jobs
@@ -592,9 +743,13 @@ class POSPrinterService {
         console.log('  GET  / - Service info');
         console.log('  GET  /status - Service status');
         console.log('  GET  /printers - List printers');
-        console.log('  POST /test-print - Test print');
-        console.log('  POST /print - Print receipt');
-        console.log('  POST /preview - Preview receipt');
+        console.log('  POST /test-print - Test sales print');
+        console.log('  POST /test-transfer - Test cash transfer print');
+        console.log('  POST /test-shift-closure - Test shift closure print');
+        console.log('  POST /test-shift-handoff - Test shift handoff print');
+        console.log('  POST /test-cash-expense - Test cash expense print');
+        console.log('  POST /print - Print receipt (with type parameter)');
+        console.log('  POST /preview - Preview receipt (with type parameter)');
         console.log('====================================');
         
         logger.info(`POS Printer Service started on ${host}:${port}`);
